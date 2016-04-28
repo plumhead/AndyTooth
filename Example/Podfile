@@ -1,0 +1,8 @@
+use_frameworks!
+
+
+target 'AndyTooth_Tests', :exclusive => true do
+  pod 'AndyTooth', :path => '../'
+
+  
+end
