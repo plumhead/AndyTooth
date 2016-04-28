@@ -17,14 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "This is an example Podfile for testing setup of Cocoapods"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/AndyTooth"
+  s.homepage         = "https://github.com/plumhead/AndyTooth"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Andy Calderbank" => "andy@plumhead-software.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/AndyTooth.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/plumhead/AndyTooth.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
